@@ -43,8 +43,13 @@ Bam.
 - Submit a pull request
 - Literally save the world
 
+### Troubleshooting
+##### Mac Users:
+* Postgres is required: `brew install postgresql`
+* If `eventmachine` complains about missing the _openssl/ssl.h_ header file, it's [because openssl has become unlinked in brew](http://stackoverflow.com/questions/30818391/gem-eventmachine-fatal-error-openssl-ssl-h-file-not-found): `brew link --force openssl` to resolve.
+
 ### Future States
 - Use [Markdown for views](http://stackoverflow.com/questions/4163560/how-can-i-automatically-render-partials-using-markdown-in-rails-3/10131299#10131299)
 
 ### Help
-If you get stuck, send us a message on [Slack](http://slack.codeforgreensboro.org). 
+If you get stuck, send us a message on [Slack](http://slack.codeforgreensboro.org).
