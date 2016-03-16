@@ -39,6 +39,7 @@ Bam.
 - You should have [Ruby](https://www.ruby-lang.org/en/) installed, as well as [Rails](http://rubyonrails.org/)
 - Clone this repository
 - Run _bundle install_
+- `rails s` to start the server on `localhost:3000`
 - Make your changes
 - Submit a pull request
 - Literally save the world
